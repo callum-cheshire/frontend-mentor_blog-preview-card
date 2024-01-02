@@ -16,17 +16,17 @@ export default function Home() {
           />
 
           <div className='flex flex-col justify-end pt-4 pb-3'>
-            <button className='bg-primary-yellow w-1/3 h-1/2 p-2 flex items-center justify-center font-black text-sm rounded-md overflow-hidden'>Learning</button>
+            <button className='bg-primary-yellow w-1/3 h-1/2 p-2 flex items-center justify-center font-black text-sm rounded-md overflow-hidden hover:text-primary-yellow hover:bg-neutral-black'>Learning</button>
             <p className='pt-3 text-xs'>Published 21 Dec 2023</p>
           </div>
 
-          <h1 className='font-bold pb-4 text-xl'>HTML & CSS foundations</h1>
+          <h1 className='font-bold pb-4 text-xl hover:text-primary-yellow hover:cursor-pointer'>HTML & CSS foundations</h1>
 
           <p className='text-neutral-grey text-xs pb-2'>These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
           <div className='flex items-center pt-2'>
-            <Image src={avatar} width={30} height={30} alt="Callum Cheshire" />
-            <p className='pl-4 font-extrabold text-sm'>Callum Cheshire</p>
+            <Image src={avatar} width={30} height={30} alt="Callum Cheshire" className='hover:border-2 hover:border-solid hover:border-primary-yellow hover: rounded-full' />
+            <p className='pl-4 font-extrabold text-sm hover:text-primary-yellow hover:cursor-pointer'>Callum Cheshire</p>
           </div>
 
 
