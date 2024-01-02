@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import mainGraphic from '../assets/images/illustration-article.svg';
-import avatar from '../assets/images/image-avatar.jpg';
+import avatar from '../assets/images/pro-profile-pic.jpeg';
 
 export default function Home() {
   return (
